@@ -1,0 +1,29 @@
+._bs-animate{
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+}
+
+#_bs-main-container{
+    height:0;
+    position: fixed;
+    top: 100%;
+    z-index: 9999;
+    width: 100%;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+#_bs-popup{
+    background: #ffffff;
+    width:0;
+    margin-top:-100%;
+}
+
+._bs-shown #_bs-popup{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
